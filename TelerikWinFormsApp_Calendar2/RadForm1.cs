@@ -15,9 +15,11 @@ namespace TelerikWinFormsApp_Calendar2
         {
             InitializeComponent();
 
-            //changeCal5
-            //changeCal5
-            //changeCal5
+            //changeCal - thjis is a new challenge for sync
+            // fatal error resolved with :
+            //https://developercommunity.visualstudio.com/content/problem/19752/git-cant-clone-remote-repository.html
+
+
 
 
 
