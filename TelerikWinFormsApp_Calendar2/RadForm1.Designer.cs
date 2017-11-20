@@ -67,7 +67,7 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(967, 304);
+            this.ClientSize = new System.Drawing.Size(967, 368);
             this.Controls.Add(this.radCalendar1);
             this.Name = "RadForm1";
             // 
