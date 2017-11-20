@@ -50,7 +50,7 @@
             this.radCalendar1.ShowOtherMonthsDays = false;
             this.radCalendar1.ShowRowHeaders = true;
             this.radCalendar1.ShowViewSelector = true;
-            this.radCalendar1.Size = new System.Drawing.Size(943, 288);
+            this.radCalendar1.Size = new System.Drawing.Size(943, 343);
             this.radCalendar1.TabIndex = 0;
             this.radCalendar1.Text = "radCalendar1";
             this.radCalendar1.ThemeName = "MyCalendar10";
@@ -67,7 +67,7 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(967, 304);
+            this.ClientSize = new System.Drawing.Size(967, 359);
             this.Controls.Add(this.radCalendar1);
             this.Name = "RadForm1";
             // 
