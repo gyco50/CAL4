@@ -28,8 +28,8 @@
         /// </summary>
         private void InitializeComponent()
         {
-            Telerik.WinControls.ThemeSource themeSource3 = new Telerik.WinControls.ThemeSource();
-            Telerik.WinControls.ThemeSource themeSource4 = new Telerik.WinControls.ThemeSource();
+            Telerik.WinControls.ThemeSource themeSource1 = new Telerik.WinControls.ThemeSource();
+            Telerik.WinControls.ThemeSource themeSource2 = new Telerik.WinControls.ThemeSource();
             this.radCalendar1 = new Telerik.WinControls.UI.RadCalendar();
             this.radThemeManager1 = new Telerik.WinControls.RadThemeManager();
             ((System.ComponentModel.ISupportInitialize)(this.radCalendar1)).BeginInit();
@@ -42,25 +42,26 @@
             this.radCalendar1.AllowMultipleSelect = true;
             this.radCalendar1.AllowMultipleView = true;
             this.radCalendar1.AllowRowHeaderSelectors = true;
-            this.radCalendar1.Location = new System.Drawing.Point(12, 12);
-            this.radCalendar1.MultiViewColumns = 3;
+            this.radCalendar1.Location = new System.Drawing.Point(12, 4);
+            this.radCalendar1.MultiViewColumns = 4;
+            this.radCalendar1.MultiViewRows = 2;
             this.radCalendar1.Name = "radCalendar1";
             this.radCalendar1.ShowFooter = true;
             this.radCalendar1.ShowOtherMonthsDays = false;
             this.radCalendar1.ShowRowHeaders = true;
             this.radCalendar1.ShowViewSelector = true;
-            this.radCalendar1.Size = new System.Drawing.Size(919, 247);
+            this.radCalendar1.Size = new System.Drawing.Size(943, 288);
             this.radCalendar1.TabIndex = 0;
             this.radCalendar1.Text = "radCalendar1";
             this.radCalendar1.ThemeName = "MyCalendar10";
             // 
             // radThemeManager1
             // 
-            themeSource3.ThemeLocation = "D:\\VisualBuilder\\MyCalendar10_Repository.xml";
-            themeSource4.ThemeLocation = "D:\\VisualBuilder\\MyCalendar10_Telerik_WinControls_UI_RadCalendar.xml";
+            themeSource1.ThemeLocation = "D:\\VisualBuilder\\MyCalendar10_Repository.xml";
+            themeSource2.ThemeLocation = "D:\\VisualBuilder\\MyCalendar10_Telerik_WinControls_UI_RadCalendar.xml";
             this.radThemeManager1.LoadedThemes.AddRange(new Telerik.WinControls.ThemeSource[] {
-            themeSource3,
-            themeSource4});
+            themeSource1,
+            themeSource2});
             // 
             // RadForm1
             // 
