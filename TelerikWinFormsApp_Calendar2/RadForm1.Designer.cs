@@ -28,8 +28,8 @@
         /// </summary>
         private void InitializeComponent()
         {
-            Telerik.WinControls.ThemeSource themeSource1 = new Telerik.WinControls.ThemeSource();
-            Telerik.WinControls.ThemeSource themeSource2 = new Telerik.WinControls.ThemeSource();
+            Telerik.WinControls.ThemeSource themeSource3 = new Telerik.WinControls.ThemeSource();
+            Telerik.WinControls.ThemeSource themeSource4 = new Telerik.WinControls.ThemeSource();
             this.radCalendar1 = new Telerik.WinControls.UI.RadCalendar();
             this.radThemeManager1 = new Telerik.WinControls.RadThemeManager();
             ((System.ComponentModel.ISupportInitialize)(this.radCalendar1)).BeginInit();
@@ -56,11 +56,11 @@
             // 
             // radThemeManager1
             // 
-            themeSource1.ThemeLocation = "D:\\VisualBuilder\\MyCalendar10_Repository.xml";
-            themeSource2.ThemeLocation = "D:\\VisualBuilder\\MyCalendar10_Telerik_WinControls_UI_RadCalendar.xml";
+            themeSource3.ThemeLocation = "D:\\VisualBuilder\\MyCalendar10_Repository.xml";
+            themeSource4.ThemeLocation = "D:\\VisualBuilder\\MyCalendar10_Telerik_WinControls_UI_RadCalendar.xml";
             this.radThemeManager1.LoadedThemes.AddRange(new Telerik.WinControls.ThemeSource[] {
-            themeSource1,
-            themeSource2});
+            themeSource3,
+            themeSource4});
             // 
             // RadForm1
             // 
